@@ -16,6 +16,6 @@ jobs:
       - name: Install
         run: npm install --no-audit --no-fund
       - name: Type check
-        run: npx tsc --noEmit
+        run: ./node_modules/.bin/tsc -p tsconfig.json --noEmit
       - name: Test
         run: npm test --silent
