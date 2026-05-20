@@ -1,0 +1,14 @@
+{
+  "market": "BTCUSDT",
+  "side": "long",
+  "source": "tradingview-mean-rev-v2",
+  "timestamp": 1716080400000,
+  "indicators": {
+    "rsi_4h": 28.4,
+    "ema_50_4h": 64200,
+    "ema_200_4h": 61800,
+    "macd_4h_hist": 0.32,
+    "bb_lower_breach_4h": true,
+    "wall_bid": 60000
+  }
+}
