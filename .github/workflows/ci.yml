@@ -14,8 +14,8 @@ jobs:
         with:
           node-version: "20"
       - name: Install
-        run: npm ci --no-audit --no-fund
+        run: npm ci --no-audit --no-fund --include=dev
       - name: Type check
-        run: npx tsc -p tsconfig.json --noEmit
+        run: npm run build -- --noEmit
       - name: Test
-        run: npm test --silent
+        run: npm test
