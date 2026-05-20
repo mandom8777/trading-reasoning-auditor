@@ -1,5 +1,9 @@
 # Trading Reasoning Auditor
 
+[![ci](https://github.com/mandom8777/trading-reasoning-auditor/actions/workflows/ci.yml/badge.svg)](https://github.com/mandom8777/trading-reasoning-auditor/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+
 > Continuous, cost-aware audit of crypto trading signals. Every decision
 > ships with explainable reasoning and a token-cost / expected-ROI footprint.
 > Powered by MiMo multi-agent pipelines.
